@@ -56,11 +56,6 @@ namespace Calculator
             CalcDisplay.UpdateDisplay('9', CalculatorDisplay);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            CalcDisplay.UpdateDisplay('0', CalculatorDisplay);
-        }
-
         private void PlusBtn_Click(object sender, RoutedEventArgs e)
         {
             CalcDisplay.UpdateDisplay('+', CalculatorDisplay);
@@ -100,6 +95,16 @@ namespace Calculator
         private void ClearBtn_Click(object sender, RoutedEventArgs e)
         {
             CalcDisplay.UpdateDisplay('C', CalculatorDisplay);
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CalcDisplay.UpdateDisplay('0', CalculatorDisplay);
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            CalcDisplay.UpdateDisplay('.', CalculatorDisplay);
         }
     }
 }

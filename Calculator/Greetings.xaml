@@ -29,6 +29,7 @@
         <Button x:Name="ClearBtn" Content="Clear" HorizontalAlignment="Left" Margin="269,105,0,0" Width="117" Height="28" Click="ClearBtn_Click" Grid.Row="1" VerticalAlignment="Top"/>
         <Button x:Name="MultBtn" Content="*" HorizontalAlignment="Left" Margin="331,35,0,0" Width="55" Height="28" Click="MultBtn_Click" Grid.Row="1" VerticalAlignment="Top"/>
         <Button x:Name="DivBtn" Content="/" HorizontalAlignment="Left" Margin="331,70,0,0" Width="55" Height="28" RenderTransformOrigin="0.46,0.505" Click="DivBtn_Click" Grid.Row="1" VerticalAlignment="Top"/>
-        <Button Content="0" HorizontalAlignment="Left" Margin="224,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="40" Height="98" Click="Button_Click"/>
+        <Button x:Name="ZeroBtn" Content="0" HorizontalAlignment="Left" Margin="224,70,0,0" VerticalAlignment="Top" Width="40" Height="63" Click="Button_Click" Grid.Row="1"/>
+        <Button x:Name="DecimalBtn" Content="." HorizontalAlignment="Left" Margin="224,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="40" Height="28" Click="Button_Click_1"/>
     </Grid>
 </Window>
