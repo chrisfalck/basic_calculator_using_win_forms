@@ -4,11 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-// TODO:
-// Deal with errors gracefully
-// Check for the wrong number of parenthesis
-// Deal with multiple operators in a row, like 5 + 3 - 2 * 4
-
 namespace Calculator
 {
     class InfixParser
